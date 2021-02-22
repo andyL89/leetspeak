@@ -1,6 +1,6 @@
 module ExtraMethods
   def leetspeak
-    
+    self
   end
 end
 
