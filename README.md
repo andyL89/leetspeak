@@ -36,7 +36,7 @@ This is an application for learning TDD with ruby while attending Epicodus codin
 
 - Once you have chosen your desired directory use the command.
 ```bash
-git clone https://github.com/dcouch440/ping-pong-tdd.git
+git clone https://github.com/andyL89/leetspeak
 ```
 
 <div
