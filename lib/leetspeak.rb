@@ -1,6 +1,12 @@
 module ExtraMethods
   def leetspeak
-    self
+    string = self
+    string = string.gsub(/e/i, '3')
+    string = string.gsub(/o/i, '0')
+    string = string.gsub(/I/, '1')
+    string.split(" ").map { |i|
+      i.gsub(/(?!^s)s/i, 'z')
+    }.join(" ")
   end
 end
 
